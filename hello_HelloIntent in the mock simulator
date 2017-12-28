@@ -1,0 +1,68 @@
+"request": {
+  "type": "IntentRequest", 
+  "requestId": "EdwRequestId.4c2f6052-db60-4924-84f4-580ae10f9234",
+  "intent": {
+    "name": "HelloIntent",
+    "slots": {}
+  };
+  
+  https://s3.amazonaws.com/codecademy-content/courses/alexa/learn-alexa-introduction/service-simulator-workspace/index.html
+  
+  Text
+JSON
+Enter Utterance
+
+
+hello
+
+Ask code academy
+Reset
+Lambda Request
+
+Lambda Response
+
+
+{
+   "session": {
+     "new": true,
+     "sessionId": "SessionId.XXXX",
+     "application": {
+       "applicationId": "amzn1.ask.skill.XXXX"
+     },
+     "attributes": {},
+     "user": {
+       "userId": "amzn1.ask.account.XXXX"
+     }
+   },
+   "request": {
+     "type": "IntentRequest",
+     "requestId": "EdwRequestId.XXXX",
+     "intent": {
+       "name": "HelloIntent",
+       "slots": {}
+     },
+     "locale": "en-US",
+     "timestamp": "XXXX-XX-XXXXX:XX:XXX"
+},
+.
+.
+.
+
+{
+   "version": "1.0",
+   "response": {
+     "outputSpeech": {
+       "ssml": " Hello, Codecademy ",
+       "type": "SSML"
+     },
+     "speechletResponse": {
+       "outputSpeech": {
+         "ssml": " Hello, Codecademy "
+       },
+       "shouldEndSession": true
+     }
+   },
+   "sessionAttributes": {}
+}
+Listen
+
